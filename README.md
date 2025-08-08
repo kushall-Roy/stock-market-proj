@@ -1,0 +1,1 @@
+Developed a Stock market project having different microservices present in it , these microservices are registered in Eureka server , all these microservices present here are routed through API gateway
