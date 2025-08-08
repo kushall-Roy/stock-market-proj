@@ -1,13 +1,14 @@
 package in.ineuron;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class StockUiAppApplication {
+@EnableDiscoveryClient
+public class StockApiGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StockUiAppApplication.class, args);
+		SpringApplication.run(StockApiGatewayApplication.class, args);
 	}
 
 }
